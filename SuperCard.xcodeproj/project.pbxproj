@@ -21,6 +21,7 @@
 		25FCE7BB18AE306B00B84D13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FCE79D18AE306B00B84D13 /* UIKit.framework */; };
 		25FCE7C318AE306B00B84D13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25FCE7C118AE306B00B84D13 /* InfoPlist.strings */; };
 		25FCE7C518AE306B00B84D13 /* SuperCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FCE7C418AE306B00B84D13 /* SuperCardTests.m */; };
+		25FCE7D018AE317300B84D13 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FCE7CF18AE317300B84D13 /* PlayingCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		25FCE7C018AE306B00B84D13 /* SuperCardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperCardTests-Info.plist"; sourceTree = "<group>"; };
 		25FCE7C218AE306B00B84D13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25FCE7C418AE306B00B84D13 /* SuperCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardTests.m; sourceTree = "<group>"; };
+		25FCE7CE18AE317300B84D13 /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		25FCE7CF18AE317300B84D13 /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +115,9 @@
 		25FCE79F18AE306B00B84D13 /* SuperCard */ = {
 			isa = PBXGroup;
 			children = (
-				25FCE7A818AE306B00B84D13 /* AppDelegate.h */,
-				25FCE7A918AE306B00B84D13 /* AppDelegate.m */,
 				25FCE7AB18AE306B00B84D13 /* Main.storyboard */,
+				25FCE7CE18AE317300B84D13 /* PlayingCardView.h */,
+				25FCE7CF18AE317300B84D13 /* PlayingCardView.m */,
 				25FCE7AE18AE306B00B84D13 /* ViewController.h */,
 				25FCE7AF18AE306B00B84D13 /* ViewController.m */,
 				25FCE7B118AE306B00B84D13 /* Images.xcassets */,
@@ -126,6 +129,8 @@
 		25FCE7A018AE306B00B84D13 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				25FCE7A818AE306B00B84D13 /* AppDelegate.h */,
+				25FCE7A918AE306B00B84D13 /* AppDelegate.m */,
 				25FCE7A118AE306B00B84D13 /* SuperCard-Info.plist */,
 				25FCE7A218AE306B00B84D13 /* InfoPlist.strings */,
 				25FCE7A518AE306B00B84D13 /* main.m */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25FCE7B018AE306B00B84D13 /* ViewController.m in Sources */,
+				25FCE7D018AE317300B84D13 /* PlayingCardView.m in Sources */,
 				25FCE7AA18AE306B00B84D13 /* AppDelegate.m in Sources */,
 				25FCE7A618AE306B00B84D13 /* main.m in Sources */,
 			);
